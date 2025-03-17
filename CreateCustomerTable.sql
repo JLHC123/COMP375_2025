@@ -1,0 +1,5 @@
+CREATE TABLE Customer(
+CustomerId INT PRIMARY KEY IDENTITY(1,1),
+CustomerFirstName NVARCHAR(50) NOT NULL,
+CustomerLastName NVARCHAR(50) NOT NULL
+);
